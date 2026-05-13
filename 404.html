@@ -189,7 +189,9 @@
 
     <h1>404 - ERROR</h1>
     <p>Diese Seite existiert nicht.</p>
-    <a href="/" class="home-btn">Zurück zur Startseite</a>
+    
+    <!-- Hier wurde der Link aktualisiert -->
+    <a href="https://herobrinek737-tech.github.io/South-Dekota-Webeite-2-/" class="home-btn">Zurück zur Startseite</a>
 
     <div id="game-container">
         <div id="score-board">💰 <span id="score">0</span></div>
@@ -273,7 +275,7 @@
         btnLeft.addEventListener('mousedown', moveLeft);
         btnRight.addEventListener('mousedown', moveRight);
 
-        // Unsichtbare Swipe-Steuerung (als Bonus weiterhin aktiv)
+        // Unsichtbare Swipe-Steuerung (als Backup weiterhin aktiv)
         let touchStartX = 0;
         gameContainer.addEventListener('touchstart', e => {
             touchStartX = e.changedTouches[0].screenX;
